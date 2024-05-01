@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Blog stage';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'Blog: Warre Bogaerts';
 
   return {
     name,
